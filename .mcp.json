@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "laravel-superset": {
+      "command": "node",
+      "args": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
+        "-y",
+        "mcp-remote",
+        "http://127.0.0.1:8000/mcp/superset",
+        "--transport",
+        "sse-first",
+        "--header",
+        "AUTHORIZATION: Bearer ${MCP_API_TOKEN}"
+      ]
+    }
+  }
+}

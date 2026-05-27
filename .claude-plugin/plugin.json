@@ -1,0 +1,7 @@
+{
+  "name": "garrastazu-laravel-superset-mcp",
+  "version": "1.0.0",
+  "description": "Plugin MCP da Garrastazu para Laravel Superset",
+  "author": "Garrastazu",
+  "homepage": "https://github.com/garrastazu/garrastazu-laravel-superset-mcp"
+}
