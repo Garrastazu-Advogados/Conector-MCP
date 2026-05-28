@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este projeto é um **plugin distribuível para o Claude Code** que expõe um servidor MCP remoto construído em Laravel via HTTP/SSE. O plugin permite que usuários do Claude Code interajam com a API Laravel diretamente pelo terminal.
+Este projeto é um **plugin distribuível para o Claude Code**. Ele é um plugin da Garrastazu que expõe um servidor MCP remoto construído em Laravel via HTTP/SSE. O plugin permite que usuários do Claude Code interajam com a API Laravel diretamente pelo terminal.
 
 ---
 

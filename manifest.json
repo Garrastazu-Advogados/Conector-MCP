@@ -3,7 +3,7 @@
   "name": "garrastazu-laravel-superset-mcp",
   "display_name": "Garrastazu Laravel Superset MCP",
   "version": "1.0.0",
-  "description": "Extensao MCP da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via SSE.",
+  "description": "Plugin da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via MCP (SSE).",
   "author": {
     "name": "Garrastazu"
   },
@@ -40,7 +40,8 @@
   },
   "compatibility": {
     "platforms": [
-      "win32"
+      "win32",
+      "linux"
     ]
   }
 }

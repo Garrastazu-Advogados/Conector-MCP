@@ -1,6 +1,6 @@
 # Garrastazu Laravel Superset MCP
 
-Extensao MCP da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via SSE.
+Este e um plugin da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via MCP (SSE).
 
 ## Configuracao
 
