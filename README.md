@@ -1,32 +1,30 @@
-<<<<<<< HEAD
-# Garrastazu Laravel Superset MCP
+# Garrastazu E-Garra MCP (Remote Connector)
 
-Este e um plugin da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via MCP (SSE).
+Este repositorio foi migrado para o alvo de conector remoto do Claude.ai.
 
-## Configuracao
+Endpoint canonico:
 
-Durante a instalacao da extensao, informe:
+- `https://mcp.garrastazu.com.br/mcp/e-garra`
 
-- `mcp_server_url`: `http://mcp.garrastazu.com.br:8000/mcp/e-garra`
-- `mcp_api_token`: token Bearer do servidor Laravel
+## Objetivo
 
-## Desenvolvimento local
+- Entregar um servidor MCP remoto em Laravel para uso por usuarios do Claude.ai (organizacao).
+- Autenticacao principal por OAuth2 (Authorization Code + PKCE).
+- HTTPS obrigatorio em producao.
 
-Validar o manifesto:
+## Fluxo de credenciais para o usuario
 
-```bash
-npx -y @anthropic-ai/mcpb validate .
-```
+- Opcao recomendada: login OAuth na UI do connector.
+- Opcao de contingencia: token manual temporario com expiracao curta.
 
-Gerar o pacote:
+## Estado do repositorio
 
-```bash
-npx -y @anthropic-ai/mcpb pack .
-```
+- Codigo do servidor Laravel MCP em `laravel-mcp-enterprise/`.
+- Este diretorio `plugin/` permanece apenas com documentacao/transicao.
 
-## Observacoes
+## Notas operacionais
 
 - Nao versionar tokens reais.
-- O launcher usa `mcp-remote` com `sse-first`.
-- O endpoint Laravel deve estar acessivel antes da instalacao.
+- Validar endpoint e autenticacao antes de rollout para usuarios finais.
+- Manter monitoramento de erros e auditoria de chamadas MCP.
 
