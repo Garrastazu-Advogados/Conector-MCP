@@ -1,10 +1,10 @@
 {
-  "name": "MCP-Garrastazu",
+  "name": "mcp-garrastazu",
   "version": "1.0.0",
   "icon": "logo.png",
   "description": "Garrastazu-Egarra-MCP",
   "author": {
     "name": "Garrastazu"
   },
-  "homepage": "https://github.com/garrastazu/Conector-MCP"
+  "homepage": "https://github.com/Garrastazu-Advogados/Conector-MCP"
 }

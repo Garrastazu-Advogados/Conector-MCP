@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "MCP-Garrastazu",
+      "name": "mcp-garrastazu",
       "description": "Conector MCP da Garrastazu",
       "author": {
         "name": "Garrastazu"
