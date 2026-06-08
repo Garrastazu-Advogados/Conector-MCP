@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Garrastazu Laravel Superset MCP
 
 Este e um plugin da Garrastazu para conectar o Claude Desktop ao endpoint Laravel Superset via MCP (SSE).
@@ -6,7 +7,7 @@ Este e um plugin da Garrastazu para conectar o Claude Desktop ao endpoint Larave
 
 Durante a instalacao da extensao, informe:
 
-- `mcp_server_url`: `http://127.0.0.1:8000/mcp/superset`
+- `mcp_server_url`: `http://mcp.garrastazu.com.br:8000/mcp/e-garra`
 - `mcp_api_token`: token Bearer do servidor Laravel
 
 ## Desenvolvimento local
@@ -28,3 +29,6 @@ npx -y @anthropic-ai/mcpb pack .
 - Nao versionar tokens reais.
 - O launcher usa `mcp-remote` com `sse-first`.
 - O endpoint Laravel deve estar acessivel antes da instalacao.
+=======
+# MCP-Laravel
+>>>>>>> cf56e9ed60a62da1096c8766d2d4cedd5998a094
