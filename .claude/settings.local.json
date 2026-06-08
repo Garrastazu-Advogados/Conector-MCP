@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "garrastazu-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "Garrastazu-Advogados/Conector-MCP"
+      }
+    }
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "name": "garrastazu-laravel-superset-mcp",
+  "name": "MCP-Garrastazu",
   "version": "1.0.0",
   "icon": "logo.png",
   "description": "Garrastazu-Egarra-MCP",
-  "author": "Garrastazu",
-  "homepage": "https://github.com/garrastazu/garrastazu-laravel-superset-mcp"
+  "author": {
+    "name": "Garrastazu"
+  },
+  "homepage": "https://github.com/garrastazu/Conector-MCP"
 }
