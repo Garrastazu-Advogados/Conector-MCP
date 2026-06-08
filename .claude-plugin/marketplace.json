@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "garrastazu-marketplace",
+  "description": "Marketplace privado da Garrastazu para plugins Claude Code.",
+  "owner": {
+    "name": "Garrastazu"
+  },
+  "plugins": [
+    {
+      "name": "MCP-Garrastazu",
+      "description": "Conector MCP da Garrastazu",
+      "author": {
+        "name": "Garrastazu"
+      },
+      "category": "development",
+      "source": "./",
+      "homepage": "https://github.com/Garrastazu-Advogados/Conector-MCP"
+    }
+  ]
+}
