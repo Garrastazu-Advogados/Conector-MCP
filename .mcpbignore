@@ -1,0 +1,4 @@
+.git/
+.venv/
+plugin.mcpb
+*.log

@@ -6,7 +6,7 @@
         "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
         "-y",
         "mcp-remote",
-        "http://127.0.0.1:8000/mcp/superset",
+        "http://127.0.0.1:8000/mcp/mariadb",
         "--transport",
         "sse-first",
         "--header",
