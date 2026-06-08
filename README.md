@@ -29,6 +29,4 @@ npx -y @anthropic-ai/mcpb pack .
 - Nao versionar tokens reais.
 - O launcher usa `mcp-remote` com `sse-first`.
 - O endpoint Laravel deve estar acessivel antes da instalacao.
-=======
-# MCP-Laravel
->>>>>>> cf56e9ed60a62da1096c8766d2d4cedd5998a094
+
